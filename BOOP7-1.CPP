@@ -11,7 +11,7 @@ int age;
 char br[10];
 float pr;
 
-int getdata();
+int getdata()
 {
 cout<<"ENTER ROLL NUMBER:";
 cin>>r_no;
@@ -24,7 +24,7 @@ cin>>br;
 cout<<"ENTER PR:";
 cin>>pr;
 }
-int display();
+int display()
 {
 cout<<"ROLL_NUMBER="<<r_no<<endl;
 cout<<"NAME="<<name<<endl;
